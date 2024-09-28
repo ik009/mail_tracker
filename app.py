@@ -111,9 +111,9 @@ class ReusableForm(Form):
         
         return render_template('hello.html', form=form)
 
-if __name__ == "__main__":
-    try:
-        port = int(os.environ.get('PORT', 5000))
-        app.run(host='localhost', port=port)
-    except:
-        logging.exception('error')
+# if __name__ == "__main__":
+#     try:
+#         port = int(os.environ.get('PORT', 5000))
+#         app.run(host='localhost', port=port)
+#     except:
+#         logging.exception('error')
